@@ -1,0 +1,104 @@
+body{
+    background: rgb(58, 58, 58);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    background: black;
+    background-image: url("sanLian.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .mobile{
+    display: none;
+}
+
+header .logo a{
+    background-image: url("sanLian.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -999999px;
+    position: relative;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+/* RESPONSIVE RULES */
+@media screen and (max-width: 745px) {
+    header{
+        height: 400px;
+    }
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+}
+
+
+/* FEATURE */
+.features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.features figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features figure img{
+    border: 1px solid white;
+    border-radius: 30%;
+    box-shadow: gray 0 0 10px;
+    /* width: 250px; */
+}
+/* RESPONSIVE RULES
+@media screen and (max-width: 715px) {
+    .features{
+        display: block;
+    }
+} */
+
+
+/* FOOTER */
+footer{
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 10px 20px;
+    text-align: center;
+}
