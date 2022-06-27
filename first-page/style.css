@@ -1,34 +1,35 @@
-body{
+body {
     background: rgb(58, 58, 58);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    color:white;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
 /* HEADER */
-header{
+header {
     background: black;
-    background-image: url("sanLian.jpg");
+    background-image: url("wallhaven-28k3wm.jpg");
     background-size: 100%;
     background-position: center;
     padding: 20px;
-    height: 500px;
+    height: 520px;
     text-align: center;
 }
-header a{
+
+header a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 40px;
 }
 
-header .mobile{
+header .mobile {
     display: none;
 }
 
-header .logo a{
-    background-image: url("sanLian.png");
+header .logo a {
+    background-image: url("logo1.png");
     background-size: 100px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -38,29 +39,33 @@ header .logo a{
     width: 100px;
     height: 100px;
 }
-header a:hover{
+
+header a:hover {
     text-decoration: underline;
 }
 
-nav ul{
+nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
     margin-right: 20px;
 }
+
 /* RESPONSIVE RULES */
 @media screen and (max-width: 745px) {
-    header{
+    header {
         height: 400px;
     }
-    header .mobile{
+
+    header .mobile {
         display: inline-block;
     }
-    header .desktop{
+
+    header .desktop {
         display: none;
     }
 }
@@ -75,17 +80,20 @@ nav li{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.features figure{
+
+.features figure {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
 }
-.features figure img{
+
+.features figure img {
     border: 1px solid white;
     border-radius: 30%;
     box-shadow: gray 0 0 10px;
     /* width: 250px; */
 }
+
 /* RESPONSIVE RULES
 @media screen and (max-width: 715px) {
     .features{
@@ -95,7 +103,7 @@ nav li{
 
 
 /* FOOTER */
-footer{
+footer {
     background: black;
     color: gray;
     font-size: 12px;
