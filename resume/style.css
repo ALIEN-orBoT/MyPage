@@ -244,6 +244,10 @@ p {
 
 }
 
+a {
+    color: #333;
+}
+
 @media (max-width:1000px) {
     .container {
         margin: 10px;
